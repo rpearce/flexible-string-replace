@@ -1,0 +1,74 @@
+{
+  "name": "@rpearce/flexible-string-replace",
+  "version": "0.1.0",
+  "description": "🧶  Safely replace any part of a string with anything. Example: useful for replacing substrings with JSX in React",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rpearce/flexible-string-replace.git"
+  },
+  "homepage": "https://github.com/rpearce/flexible-string-replace",
+  "bugs": "https://github.com/rpearce/flexible-string-replace/issues",
+  "author": "Robert Pearce <me@robertwpearce.com>",
+  "contributors": [
+    "Robert Pearce <me@robertwpearce.com> (https://robertwpearce.com)"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "string-replace",
+    "string-manipulation",
+    "string-interpolation",
+    "replace-string",
+    "replace-text",
+    "react"
+  ],
+  "tags": [
+    "string-replace",
+    "string-manipulation",
+    "string-interpolation",
+    "replace-string",
+    "replace-text",
+    "react"
+  ],
+  "files": [
+    "AUTHORS",
+    "LICENSE",
+    "README.md",
+    "src/"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage:report": "nyc report --reporter=lcov && echo \"view coverage: ./coverage/lcov-report/index.html\"",
+    "lint": "eslint --ext .js .",
+    "prepublishOnly": "npm run lint",
+    "test": "npm run lint && nyc ava --verbose"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "all-contributors-cli": "^6.1.2",
+    "ava": "^1.2.1",
+    "coveralls": "^3.0.3",
+    "eslint": "^5.15.0",
+    "eslint-plugin-react": "^7.12.4",
+    "nyc": "^13.3.0",
+    "react": "^16.8.3"
+  },
+  "ava": {
+    "babel": {
+      "testOptions": {
+        "presets": [
+          "@babel/preset-react"
+        ]
+      }
+    }
+  },
+  "nyc": {
+    "include": [
+      "index.js",
+      "src/**/*.js"
+    ]
+  }
+}
