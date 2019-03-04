@@ -67,8 +67,7 @@
   },
   "nyc": {
     "include": [
-      "index.js",
-      "src/**/*.js"
+      "index.js"
     ]
   }
 }

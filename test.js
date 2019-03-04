@@ -1,12 +1,7 @@
 import test from 'ava'
 import React from 'react'
 
-import entry from '../'
-import flexibleStringReplace from '../src'
-
-test('entry exports', t => {
-  t.not(entry, undefined)
-})
+import flexibleStringReplace from './'
 
 test('flexibleStringReplace is defined', t => {
   t.not(flexibleStringReplace, undefined)
