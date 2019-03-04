@@ -1,6 +1,5 @@
 # flexible-string-replace
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
-[![All Contributors](https://img.shields.io/badge/all_contributors-0-orange.svg?style=flat-square)](#contributors)
 [![npm version](https://img.shields.io/npm/v/@rpearce/flexible-string-replace.svg)](https://www.npmjs.com/package/@rpearce/flexible-string-replace) [![npm downloads](https://img.shields.io/npm/dt/@rpearce/flexible-string-replace.svg)](https://www.npmjs.com/package/@rpearce/flexible-string-replace) [![Build Status](https://travis-ci.org/rpearce/flexible-string-replace.svg?branch=master)](https://travis-ci.org/rpearce/flexible-string-replace) [![Coverage Status](https://coveralls.io/repos/github/rpearce/flexible-string-replace/badge.svg?branch=master)](https://coveralls.io/github/rpearce/flexible-string-replace?branch=master) [![Maintainability](https://api.codeclimate.com/v1/badges/ca092c1e9dfe10b455d7/maintainability)](https://codeclimate.com/github/rpearce/flexible-string-replace/maintainability)
 
 ## Links
