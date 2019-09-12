@@ -54,15 +54,22 @@ test('forwards matching group parts in Replacement params', t => {
   const ats = []
   const tags = []
   const replacement = (_, at, tag) => {
-    if (at) { ats.push(at) }
-    if (tag) { tags.push(tag) }
+    if (at) {
+      ats.push(at)
+    }
+    if (tag) {
+      tags.push(tag)
+    }
   }
   flexibleStringReplace(pattern, replacement, str)
 
-  t.deepEqual({ ats, tags }, {
-    ats: [ '@diary' ],
-    tags: [ '#passes', '#pray' ]
-  })
+  t.deepEqual(
+    { ats, tags },
+    {
+      ats: ['@diary'],
+      tags: ['#passes', '#pray']
+    }
+  )
 })
 
 test('regexp pattern & react interpolation function', t => {

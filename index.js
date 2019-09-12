@@ -14,9 +14,10 @@ function flexibleStringReplace(pattern, replacement, str) {
     var originalStr = args[argsN - 1]
     var charOffset = args[argsN - 2]
     var prevChars = originalStr.slice(position, charOffset)
-    var replaced = typeof replacement === 'function'
-      ? replacement.apply(null, args)
-      : replacement
+    var replaced =
+      typeof replacement === 'function'
+        ? replacement.apply(null, args)
+        : replacement
 
     result.push(prevChars, replaced)
     position = charOffset + match.length
