@@ -1,6 +1,6 @@
 {
   "name": "@rpearce/flexible-string-replace",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "🧶  Safely replace any part of a string with anything. Example: useful for replacing substrings with JSX in React",
   "main": "index.js",
   "repository": {
