@@ -1,6 +1,6 @@
 {
   "name": "@rpearce/flexible-string-replace",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "🧶  Safely replace any part of a string with anything. Example: useful for replacing substrings with JSX in React",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
