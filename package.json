@@ -11,7 +11,7 @@
   "homepage": "https://github.com/rpearce/flexible-string-replace",
   "bugs": "https://github.com/rpearce/flexible-string-replace/issues",
   "author": "Robert Pearce <me@robertwpearce.com>",
-  "license": "BSD-3",
+  "license": "Unlicense",
   "keywords": [
     "string-replace",
     "string-manipulation",
